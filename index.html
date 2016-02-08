@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/smartRollover.js"></script>
+	<script type="text/javascript" src="js/bar.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		// #で始まるアンカーをクリックした場合に処理
+		$('a[href^=#]').click(function() {
+			// スクロールの速度
+			var speed = 400; // ミリ秒
+			// アンカーの値取得
+			var href= $(this).attr("href");
+			// 移動先を取得
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			// 移動先を数値で取得
+			var position = target.offset().top;
+			// スムーススクロール
+			$('body,html').animate({scrollTop:position}, speed, 'swing');
+			return false;
+		});
+	});
+	</script>
+	<title>Taiki's Portfolio</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="contents" class="top">
+			<div id="tophead"><img src="images/topfont.png" width="1200" height="89"/></div>
+			<ul id="gNavi">
+				<li><a href="#jumpchoujyu"><img src="images/topnavi_01_off.png" alt="button"/></a></li>
+				<li><a href="#jumpflier"><img src="images/topnavi_02_off.png" alt="button"/></a></li>
+				<li><a href="#jumpnennga"><img src="images/topnavi_03_off.png" alt="button"/></a></li>
+				<li><a href="#jumpsengo"><img src="images/topnavi_04_off.png" alt="button"/></a></li>
+				<li><a href="#jumpcrash"><img src="images/topnavi_05_off.png" alt="button"/></a></li>
+				<li><a href="#jumpinstallation"><img src="images/topnavi_06_off.png" alt="button"/></a></li>
+				<li><a href="#jumpsoft"><img src="images/topnavi_07_off.png" alt="button"/></a></li>
+				<li><a href="#jumpkaleido"><img src="images/topnavi_08_off.png" alt="button"/></a></li>
+				<li><a href="#jumptoylet"><img src="images/topnavi_09_off.png" alt="button"/></a></li>
+				<li><a href="#jumpcst"><img src="images/topnavi_10_off.png" alt="button"/></a></li>
+			</ul>
+		</div> <!--top-->
+		<div class="nav">
+			<ul class="clearfix">
+				<li><a href="#wrapper"><img src="images/taikisicon1.png" alt="button"/></a></li>
+				
+			</ul>
+		</div><!-- /#nav -->
+		<div class="midasipro">
+			<img src="images/profile.png"/>
+		</div><!--midasi-->
+		<div class="contents" class="profile">
+			<div id="profileWrap">
+				<div id="profileLeftContents">
+					<h2 class="title"> <img src="images/_DSC1827.jpg" alt="Profile" width="400px" height="auto"></h2>
+					<div id="nameBox">
+						<p>キネ　タイキ</p>
+						<h3>木根　大気</h3>
+					</div>
+				</div>
+				<div id="profileRightContents">
+					<h4>スキル</h4>
+					<table><td><ul>
+						<li><h5>プログラミング</h5></li>
+						<li><p> Java</p></li>
+						<li><p> openFrameworks</p></li>
+						<li><p> Processing</p></li>
+						<li><p> Arduino</p></li>
+						<li><p> ActionScript</p></li>
+						<li><p> HTML / CSS / JavaScript</p></li>
+					</ul></td><td><ul>
+						<li><h5>ソフトウェア</h5></li>
+						<li><p> Illustrator</p></li>
+						<li><p> Photoshop</p></li>
+						<li><p> InDesign</p></li>
+						<li><p> Premiere</p></li>
+						<li><p> Office全般</p></li>
+					</ul></td>
+				</table>
+				<div id="Keireki">
+					<h4>略歴</h4>
+					<table><tr>
+						<td><p> 1994年 07月</p></td>
+						<td><p>愛知県　尾張旭市で誕生</p></td>
+					</tr><tr>
+						<td><p> 2013年 03月</p></td>
+						<td><p>都立六郷工科高等学校 デザイン科 卒業</p></td>
+					</tr><tr>
+						<td><p> 2013年 04月</p></td>
+						<td><p>東京工芸大学 芸術学部 インタラクティブメディア学科 入学</p></td>
+					</tr><tr>
+						<td><p> 2014年 10月</p></td>
+						<td><p><a href="http://shinjuku-scf.sakura.ne.jp/profesteds/" TARGET="_blank">新宿クリエイターズフェスタ</a> にて Kaleidoscope 出展</p></td>
+					</tr><tr>
+						<td><p> 2015年 03月</p></td>
+						<td><p>ソフトウェアデザイン研究室 所属</p></td>
+					</tr><tr>
+						<td><p> 2015年 10月</p></td>
+						<td><p><a href="http://shinjuku-scf.sakura.ne.jp/profesteds/" TARGET="_blank">新宿クリエイターズフェスタ</a> にて 5worlds 出展</p></td>
+					</tr><tr>
+						<td><p> 2015年 11月</p></td>
+						<td><p><a href="http://tokyodesignweek.jp/" TARGET="_blank">東京デザインウィーク</a>にて びっくりTOYLET 出展</p></td>
+					</tr></table>
+				</div>
+			</div>
+		</div>
+	</div> <!--profile-->
+	<div id = "jumpinstallation"></div>
+	<div class="midasi">
+		<img src="images/installation.png"/>
+	</div><!--midasi-->
+	<div class="contents" class="installation">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "riacicon">
+					<h1>
+						<img src="images/portfolioWeb2_03.png" id="riac1" class="slide-left" width="205" height="281">
+						<img src="images/portfolioWeb2_05.png" id="riac2" class="slide-top" width="380" height="281">
+						<img src="images/portfolioWeb2_09.png" id="riac3" class="slide-bottom" width="333" height="249">
+						<img src="images/portfolioWeb2_11.png" id="riac4" class="slide-right" width="250" height="249">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="riacRightWrap">
+					<div id="riactextBox">
+						<p>openFrameworks</p>
+						<h3>activeMark</h3>
+						<p>マーカーを用いて、画面上にアニメーションを表示させるインスタレーションです。<br>角度や場所で色が変わり、黒い背景とのコントラストで<br>色あざやかな動きを表現させました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--installation-->
+	<div id = "jumpsoft"></div>
+	<div class="midasi">
+		<img src="images/softwere.png"/>
+	</div><!--midasi-->
+	<div class="contects" class="app">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "trfcicon">
+					<h1>
+						<img src="images/softphoto1.png" id="trfc1" class="slide-left" width="409" height="auto">
+						<img src="images/softphoto2.png" id="trfc2" class="slide-top" width="185">
+						<img src="images/softphoto3.png" id="trfc3" class="slide-bottom"width="217">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="trfcRightWrap">
+					<div id="trfctextBox">
+						<p>Java</p>
+						<h3>TrafiCrowd</h3>
+						<p>外に出ることなく、喧騒から街を体感できるアプリです。<br>向きによって喧騒の方向が変わり、本当にその場所にいるかのような感覚を味わうことができます。<br>また、歩くことによってアプリ内のマーカーが移動していき、それに伴って音も移動し<br>さらに没入感が生まれる作品になっています。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--app-->
+	<div class="contects" class="houny">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "hounyicon">
+					<h1>
+						<img src="images/houny.png" id="houny1" class="slide-left" width="409" height="auto">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="hounyRightWrap">
+					<div id="hounytextBox">
+						<p>Processing</p>
+						<h3>Data Visualization</h3>
+						<p>日本でのはちみつの収穫量データを色で比較したビジュアライゼーションです。<br>マウスオーバーで色が変わり、各地域での比較ができるようになっています。<br>数値などの情報はあえて入れず、直感で量がわかるように工夫しました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--houny-->
+	<div id = "jumpcrash"></div>
+	<div class="midasi">
+		<img src="images/web.png"/>
+	</div><!--midasi-->
+	<div class="contents" class="Crash">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "crashicon">
+					<h1>
+						<img src="images/crashphoto1.png" id="crash1" class="slide-left" width="500" height="auto">
+						<img src="images/crashphoto2.png" id="crash2" class="slide-left" width="500" height="auto">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="crashRightWrap">
+					<div id="crashtextBox">
+						<p>HTML/CSS</p>
+						<h3>CRASH ウェブサイト案</h3>
+						<p>2004年に放映された映画、CRASHのPRを想定したウェブサイト案です。<br>劇中、登場人物の心情のコントラストが色濃く出ていたので、明るい背景に暗めのメニューバーと劇中カットで濃さを表現しました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--Crash-->
+	<div id = "jumpsengo"></div>
+	<div class="contents" class="sengo">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "sengoicon">
+					<h1>
+						<img src="images/sengophoto1.png" id="sengo1" class="slide-left" width="500" height="auto">
+						<img src="images/sengophoto2.png" id="sengo2" class="slide-left" width="500" height="auto">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="sengoRightWrap">
+					<div id="sengotextBox">
+						<p>HTML/CSS</p>
+						<h3>友達紹介ウェブサイト</h3>
+						<p>友達の紹介サイトをお互いに作り合いました。<br>相方の魅力や特徴をどれだけ読み取り、デザインするかが<br>大きな課題になりましたが、色合いと絵を駆使して表現することができました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--sengo-->
+	<div id = "jumpkaleido"></div>
+	<div class="midasi">
+		<img src="images/exhibition.png"/>
+	</div><!--midasi-->
+	<div class="contents" class="kaleido">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "kaleidoicon">
+					<h1>
+						<img src="images/kaleidophoto1.png" id="kaleido1" class="slide-left" width="626" height="319">
+						<img src="images/kaleidophoto2.png" id="kaleido2" class="slide-left" width="308" height="auto">
+						<img src="images/kaleidophoto3.png" id="kaleido3" class="slide-left" width="311" height="126">
+						<img src="images/kaleidophoto4.png" id="kaleido4" class="slide-left" width="311" height="144">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="kaleidoRightWrap">
+					<div id="kaleidotextBox">
+						<p>openFrameworks</p>
+						<h3>Kaleidoscope</h3>
+						<p>新宿クリエイターズフェスタ2014にて27メートルの壁に投影された作品です。<br>会場内に流れる音楽に反応し、大小さまざまな大きさの図形がゆったりと動いていきます。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--kaleido-->
+	<div id = "jumptoylet"></div>
+	<div class="contents" class="toyle">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "toyleicon">
+					<h1>
+						<img src="images/toylephoto1.png" id="toyle1" class="slide-left">
+						<img src="images/toylephoto2.png" id="toyle2" class="slide-left">
+						<img src="images/toylephoto3.png" id="toyle3" class="slide-left">
+						<img src="images/toylephoto4.png" id="toyle4" class="slide-left">
+						<img src="images/toylephoto5.png" id="toyle5" class="slide-left">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="toyleRightWrap">
+					<div id="toyletextBox">
+						<p>openFrameworks/Arduino</p>
+						<h3>びっくり TOYLET</h3>
+						<p>東京デザインウィークにて出展した、トイレをモチーフにした作品です。<br>普段何気なく使っているトイレがいつもと違ったら、<br>という考えの中でうまれました。近づく、座る、流すといったいつもの動作でいつもとは違う反応をする作品です。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--toyle-->
+	<div id = "jumpchoujyu"></div>
+	<div class="midasigra">
+		<img src="images/graphic.png"/>
+	</div><!--midasi-->
+	<div class="contents" class="choujyu">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "choujyuicon">
+					<h1>
+						<img src="images/choujyu1.png" id="choujyu1" class="slide-left" width="300">
+						<img src="images/choujyu2.png" id="choujyu2" class="slide-left" width="300">
+						<img src="images/choujyu3.png" id="choujyu3" class="slide-left" width="300">
+						<img src="images/choujyu4.png" id="choujyu4" class="slide-left" width="300">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="choujyuRightWrap">
+					<div id="choujyutextBox">
+						<p>Illustrator</p>
+						<h3>鳥獣戯画レイアウト案</h3>
+						<p>上がモノクロでのレイアウト案、下がカラーでのレイアウト案です。<br>また、右側がグリッドを意識した案、<br>左側が意識しなかった案です。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--choujyu-->
+	<div id = "jumpflier"></div>
+	<div class="contents" class="flier">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "fliericon">
+					<h1>
+						<img src="images/flier1.png" id="flier1" class="slide-left" width="500">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="flierRightWrap">
+					<div id="fliertextBox">
+						<p>Illustrator</p>
+						<h3>学科フライヤーデザイン案</h3>
+						<p>インタラクティブメディア学科のフライヤーをデザインしました。<br>大学のシンボルである三色の円を用いて、いろいろなことができるインタラクティブメディア学科の強みを強調しました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--flier-->
+	<div id = "jumpnennga"></div>
+	<div class="contents" class="nennga">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "nenngaicon">
+					<h1>
+						<img src="images/nennga1.png" id="nennga1" class="slide-left" width="500">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="nenngaRightWrap">
+					<div id="nenngatextBox">
+						<p>Illustrator</p>
+						<h3>2014年　年賀状デザイン</h3>
+						<p>午年である2014年の年賀状をデザインしました。<br>馬に見えることと、和をイメージした配色にすることにより、<br>力強さとどこか温かみのある年賀状に仕上がりました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--nennga-->
+	<div id = "jumpcst"></div>
+	<div class="midasioth">
+		<img src="images/other.png"/>
+	</div><!--midasi-->
+	<div class="contents" class="cst">
+		<div id="contentWrap">
+			<div id="allContentLeftWrap">
+				<div id = "csticon">
+					<h1>
+						<img src="images/cstphoto1.png" id="cst1" class="slide-left">
+						<img src="images/cstphoto2.png" id="cst2" class="slide-left">
+						<img src="images/cstphoto4.png" id="cst4" class="slide-left">
+						<img src="images/cstphoto3.png" id="cst3" class="slide-left">
+					</h1>
+				</div>
+			</div>
+			<div id="allContentRightWrap">
+				<div id="cstRightWrap">
+					<div id="csttextBox">
+						<p>Processing/Illustrator/レーザーカッター</p>
+						<h3>アクリルコースター</h3>
+						<p>レーザーカッターを用いて、プログラミングで描画した複雑な図形を切り、模様を削り出した作品です。<br>六角形を組み合わせた模様ですが、一見すると複雑な図形に見えるよう工夫しました。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!--other-->
+	<!--<div id="footer">
+		<div id="slide">
+			<div id="slide-in">
+				<a href="#wrapper"><img src="images/topbun1.png" alt="button"/></a>
+			</div>
+		</div>
+	</div>-->
+</div> <!--wrapper-->
+
+</body>
+</html>

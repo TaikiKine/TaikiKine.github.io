@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: rgb(181, 186, 187);
+	font-family: "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1{
+	color: rgb(41, 128, 185);
+	font-weight: 400;
+	font-size: 72px;
+}
+h2{
+	color: rgb(41, 128, 185);
+	font-weight: 200;
+	font-size: 40px;
+}
+h3{
+	color: rgb(41, 128, 185);
+	font-weight: 200;
+	font-size: 30px;
+}
+h4{
+	color: rgb(41, 128, 185);
+	font-weight: 200;
+	font-size: 18px;
+}
+h5{
+	color: rgb(41, 128, 185);
+	font-weight: 200;
+	font-size: 15px;
+}
+p{
+	color: rgb(41, 128, 185);
+	font-weight: 400;
+	font-size: 12px;
+}
+
+a{
+	color: rgb(41, 128, 185);
+	text-decoration: none;
+}
+div.wrapper {
+	width: 1280px;
+	height: 14000px;
+	background: rgb(236, 240, 241);
+	margin: 0 auto;
+	padding-top: 55px;
+	padding-bottom: 0px;
+}
+
+div.contents {
+	width: 1200px;
+	height:800px;
+	margin: 0 auto;
+}
+
+#contentWrap{
+	width: 1080px;
+	height: 768px;
+
+}
+
+#allContentLeftWrap{
+	float: left;
+	width: 500px;
+	height: 700px;
+	margin: 0px 0px 134px 100px;
+}
+#allContentRightWrap{
+	position: relative;
+	float: right;
+	width: 280px;
+	height: 768px;
+	margin-right: 50px;
+}
+#contentWrap h3{
+	margin: 10px 0px 0px 0px;
+}
+#contentWrap h5{
+	margin: 0px 0px 15px 0px;
+}
+
+div.midasi {
+	height: 300px;
+	width: 1200px;
+	margin: 200px 0px 0px 50px;
+}
+
+div.midasipro {
+	height: 300px;
+	width: 1200px;
+	margin: 200px 0px 0px 50px;
+}
+
+div.midasigra {
+	height: 300px;
+	width: 1200px;
+	margin: 100px 0px 0px 50px;
+}
+
+div.midasioth {
+	height: 300px;
+	width: 1200px;
+	margin: 250px 0px 0px 50px;
+}
+
+div#tophead {
+	height: 130px;
+	width: 1280px;
+	margin-top: 0px;
+	z-index: 990;
+}
+
+div.profile {
+	margin: 0px 0px 200px 0px;
+}
+#profileWrap{
+	width: 1080px;
+	height: 768px;
+}
+div#nameBox{
+	margin: 0;
+	padding-top: 15px;
+}
+
+div#profileLeftContents{
+	width: 650px;
+	float: left;
+	text-align: center;
+}
+
+div#profileRightContents{
+	width: 550px;
+	float: right;
+}
+
+#profileRightContents h4 {
+	margin: 0px auto;
+}
+
+#profileRightContents h5{
+	margin-left: -5px;
+}
+#profileRightContents td{
+	padding: 0px 0px 0px 30px;
+}
+div#Keireki{
+	margin: 30px 0px 50px 0px;
+}
+
+div#header {
+	position: fixed;
+	height: 130px;
+	width: 1280px;
+	margin-top: 1px;
+	z-index: 990;
+}
+
+div#header h1 {
+	font-size: 148px;
+	font-family: "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.nav {
+    padding: 0 20px;
+		z-index: 90;
+    margin: 0 auto 60px;
+    width: 1240px;
+		height: 100px;
+    font-size: 85%;
+    background: rgb(41, 128, 185);
+}
+.nav li {
+    list-style: none;
+    float: left;
+}
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 12px;
+    display: block;
+}
+.nav li a:hover {
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#gNavi {
+    margin:-41px auto;
+    width:1200px;
+    height:615px;
+    overflow:hidden;
+}
+#gNavi li { list-style:none; width:120px; float:left; }
+
+/*activeMark*/
+#riacicon{
+	width: 586px;
+	height: 500px;
+}
+#riac1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}#riac2{
+	padding: 0px;
+	float: right;
+}#riac3{
+	position: relative;
+	margin: 2px 0px 0px -206px;
+	padding: 0px 1px 0px 0px;
+	float: left;
+}#riac4{
+	margin: 1px;
+	padding: 0px 0px 1px 0px;
+	float: right;
+}
+#riacRightWrap{
+	position: absolute;
+	bottom: 233px;
+}
+/*TrafiCrowd*/
+#trfcicon{
+	width: 410px;
+	height: 630px;
+	margin-left: 100px;
+}
+#trfc1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}#trfc2{
+	padding: 3px 0px 0px 0px;
+	float: left;
+}#trfc3{
+	position: relative;
+	margin: 1px 0px 0px -206px;
+	padding: 2px 1px 0px 0px;
+	float: right;
+}
+#trfcRightWrap{
+	position: absolute;
+	bottom: 134px;
+}
+/*Data Visualization*/
+#hounyicon{
+	width: 410px;
+	height: 630px;
+	margin-left: 100px;
+	margin-top: 210px;
+}
+#houny1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}
+#hounyRightWrap{
+	position: absolute;
+	bottom: 134px;
+}
+/*Crash*/
+#crashicon{
+	width: 410px;
+	height: 630px;
+	margin-left: 0px;
+}
+#crash1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}#crash2{
+	padding: 3px 0px 0px 0px;
+	float: left;
+}
+#crashRightWrap{
+	position: absolute;
+	bottom: 80px;
+	margin-left: -60px;
+}
+/*sengo*/
+#sengoicon{
+	width: 410px;
+	height: 630px;
+	margin-left: 0px;
+}
+#sengo1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}#sengo2{
+	padding: 3px 0px 0px 0px;
+	float: left;
+}
+#sengoRightWrap{
+	position: absolute;
+	bottom: 80px;
+	margin-left: -60px;
+}
+/*kaleido*/
+#kaleidoicon{
+	width: 586px;
+	height: 500px;
+	margin-left: -50px;
+}
+#kaleido1{
+	padding: 0px 1px 4px 0px;
+	float: left;
+}#kaleido2{
+	padding: 2px 0px 1px 0px;
+	float: left;
+}#kaleido3{
+	position: relative;
+	margin: 2px -40px 0px 0px;
+	padding: 0px 1px 0px 0px;
+	float: right;
+}#kaleido4{
+	position: relative;
+	margin: 6px -40px 0px 0px;
+	padding: 0px 1px 0px 0px;
+	float: right;
+}
+#kaleidoRightWrap{
+	position: absolute;
+	bottom: 165px;
+	margin-left: -20px;
+}
+/*toyle*/
+#toyleicon{
+	width: 600px;
+	height: 500px;
+	margin-left: -50px;
+}
+#toyle1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}#toyle2{
+	padding: 0px 0px 2px 0px;
+	margin: 0px -20px 0px 0px;
+	float: right;
+}#toyle3{
+	position: relative;
+	margin: 12px -20px 0px 0px;
+	padding: 0px 1px 0px 0px;
+	float: right;
+}#toyle4{
+	position: relative;
+	margin: 12px -10px 0px 15px;
+	padding: 0px 1px 0px 0px;
+	float: left;
+}#toyle5{
+	position: relative;
+	margin: 14px -18px 0px 0px;
+	padding: 0px 1px 0px 0px;
+	float: right;
+}
+#toyleRightWrap{
+	position: absolute;
+	bottom: 5px;
+	margin-left: -40px;
+}
+/*choujyu*/
+#choujyuicon{
+	width: 610px;
+	height: 610px;
+	margin-left: -50px;
+}
+#choujyu1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}#choujyu2{
+	padding: 0px 0px 2px 0px;
+	margin: 0px -9px 0px 0px;
+	float: right;
+}#choujyu3{
+	position: relative;
+	margin: 12px -20px 0px 0px;
+	padding: 0px 1px 0px 0px;
+	float: left;
+}#choujyu4{
+	position: relative;
+	margin: 12px -10px 0px 15px;
+	padding: 0px 1px 0px 0px;
+	float: right;
+}
+#choujyuRightWrap{
+	position: absolute;
+	bottom: 180px;
+	margin: 0px 0px -30px -20px;
+}
+/*flier*/
+#fliericon{
+	width: 610px;
+	height: 610px;
+	margin-left: 0px;
+}
+#flier1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}
+#flierRightWrap{
+	position: absolute;
+	bottom: 100px;
+	margin: 0px 0px -30px -80px;
+}
+/*nennga*/
+#nenngaicon{
+	width: 610px;
+	height: 610px;
+	margin-left: 0px;
+	margin: 100px 0px 100px 0px
+}
+#nennga1{
+	padding: 0px 1px 1px 0px;
+	float: left;
+}
+#nenngaRightWrap{
+	position: absolute;
+	bottom: 100px;
+	margin: 0px 0px -160px -80px;
+}
+/*kaleido*/
+#csticon{
+	width: 500px;
+	height: 800px;
+}
+#cst1{
+	padding: 0px 1px 10px 0px;
+	float: left;
+}#cst2{
+	padding: 0px 0px 13px 0px;
+	float: left;
+}#cst3{
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}#cst4{
+	position: relative;
+	margin: 0px 13px 0px 0px;
+	padding: 0px 0px 100px 0px;
+	float: right;
+}
+#cstRightWrap{
+	position: absolute;
+	bottom: 165px;
+	margin-left: -20px;
+}
+
+#footer {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#slide {
+    background: rgba(#555555, 0);
+    color: #fff;
+    width: 100%;
+}
+#slide-in {
+    padding: 20px;
+}
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
